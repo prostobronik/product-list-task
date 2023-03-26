@@ -1,0 +1,28 @@
+.cardList {
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  justify-items: center;
+}
+
+.paginationList {
+  margin-top: 30px;
+  height: 100px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .cardList {
+    grid-template-columns: none;
+  }
+}
+
+@media (min-width: 450px) {
+  .paginationList {
+    display: flex;
+  }
+}

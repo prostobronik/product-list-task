@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  justify-content: space-around;
+  text-align: center;
+
+  overflow: hidden;
+  background-position: 50% 50%;
+}
+
+.title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
